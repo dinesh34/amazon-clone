@@ -1,6 +1,8 @@
 import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
@@ -36,7 +38,9 @@ function Product({ id, title, image, price, rating }) {
             ))}
         </div>
       </div>
-      <img src={image} />
+      <Zoom>
+        <img className="product__image" src={image} />
+      </Zoom>
       <button onClick={addToBasket}>Add to Basket</button>
     </div>
   );

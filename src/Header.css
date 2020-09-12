@@ -13,6 +13,11 @@
   object-fit: contain;
   margin: 0 20px;
   margin-top: 10px;
+  transition: transform 0.01s;
+}
+
+.header__logo:hover {
+  transform: scale(1.1);
 }
 
 .header__search {
@@ -40,6 +45,11 @@
   display: flex;
   align-items: center;
   color: aliceblue;
+  transition: transform 0.01s;
+}
+
+.header__optionBasket:hover {
+  transform: scale(1.1);
 }
 
 .header__basketCount {
@@ -58,6 +68,11 @@
   margin-left: 10px;
   margin-right: 10px;
   color: aliceblue;
+  transition: transform 0.01s;
+}
+
+.header__option:hover {
+  transform: scale(1.02);
 }
 
 .header__optionLineOne {
