@@ -1,0 +1,39 @@
+.basketItem {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.basketItem__Right {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.basketItem__image {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.basketItem__Title {
+  font-size: 30px;
+  font-weight: 500;
+  align-items: flex-start;
+}
+
+.basketItem__Rating {
+  display: flex;
+}
+
+.basketItem__Right > button {
+  display: flex;
+  width: fit-content;
+  margin-top: 15px;
+  align-self: start;
+  background: #f0c14b;
+  border-color: #b89130;
+  border: 1px solid;
+}
