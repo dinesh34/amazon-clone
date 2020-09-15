@@ -38,7 +38,7 @@ function Product({ id, title, image, price, rating }) {
             ))}
         </div>
       </div>
-      <Zoom>
+      <Zoom zoomMargin={10}>
         <img className="product__image" src={image} />
       </Zoom>
       <button onClick={addToBasket}>Add to Basket</button>

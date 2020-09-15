@@ -82,3 +82,8 @@
   font-size: 13px;
   font-weight: 800;
 }
+
+Link > .header__optionLineOne,
+.header__optionLineTwo {
+  text-decoration: none;
+}

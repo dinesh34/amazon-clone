@@ -23,6 +23,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  border: none;
 }
 
 .product > button {
@@ -44,4 +45,8 @@
 
 .product__rating {
   display: flex;
+}
+
+div[data-rmiz-wrap] > button {
+  border-width: 0;
 }
