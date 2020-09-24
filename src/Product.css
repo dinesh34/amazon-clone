@@ -47,6 +47,6 @@
   display: flex;
 }
 
-div[data-rmiz-wrap] > button {
-  border-width: 0;
+[data-rmiz-btn-open] {
+  outline-width: 0;
 }
